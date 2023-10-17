@@ -1,0 +1,9 @@
+function sortDescending(arr) {
+    return arr.slice().sort((a, b) => b - a);
+}
+
+// Example usage
+let inputArray = [5, 2, 8, 1, 4];
+let sortedArray = sortDescending(inputArray);
+
+console.log(sortedArray); // Output: [8, 5, 4, 2, 1]
